@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <style>
+      .loginform {
+        display: flex;
+        flex-direction: column;
+      }
+      .loginform1 {
+        margin: 5px;
+        padding: 2px;
+      }
+    </style>
+    <h1>Home page</h1>
+    <form class="loginform" method="POST" action="/login">
+      <label for="username"
+        >Username
+        <input
+          type="text"
+          name="username"
+          id="username"
+          class="loginform1"
+          placeholder="Enter username"
+        />
+      </label>
+      <label for="name"
+        >Name
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="loginform1"
+          placeholder="Enter name"
+        />
+      </label>
+      <label for="Email"
+        >Email
+        <input
+          type="text"
+          class="loginform1"
+          id="email"
+          name="email"
+          placeholder="Enter Email"
+        />
+      </label>
+      <label for="password"
+        >password
+        <input
+          type="password"
+          class="loginform1"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+        />
+      </label>
+      <label> <button class="loginform1" type="submit">submit</button></label>
+    </form>
+  </body>
+</html>

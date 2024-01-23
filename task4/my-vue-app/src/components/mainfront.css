@@ -1,0 +1,42 @@
+/* CardPage.css */
+
+.g-4 {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+}
+
+/* mainfront.css */
+.flex-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* mainfront.css */
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 100px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.scroll-button:hover {
+    opacity: 1
+}
+
+.left {
+    left: 5px;
+}
+
+.right {
+    right: 5px;
+}
